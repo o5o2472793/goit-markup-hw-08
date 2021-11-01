@@ -1,0 +1,93 @@
+// .hero-fon {
+//     border-color: var(--one-title-color); 
+//         background-image: linear-gradient(
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)),
+//      url(../images/fon.jpg); 
+//     background-repeat: no-repeat;
+//     background-position: top;
+//     background-size: cover;
+//       }
+
+      @media (min-widht: 420px),
+      (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {     
+            .hero-fon{
+            border-color: var(--one-title-color); 
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(/images/Header-420.jpg);
+            background-position: top;
+            background-size:cover;
+            background-repeat: no-repeat;
+                }
+    }
+
+    @media (min-widht: 768px),
+        (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .hero-fon{
+            border-color: var(--one-title-color); 
+            background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(/images/Header-780.jpg);
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+  }
+
+  @media (min-widht: 1200px),
+        (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+          .hero-fon{border-color: var(--one-title-color); 
+            background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(/images/fon.jpg);
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+}
+
+
+
+
+
+
+
+
+ 
+.hero {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.rishenie {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--praimary-title-color);
+align-items: center;
+margin-top: 200px;
+}
+
+.background-color {
+    background-color: var(--one-title-color);
+}
+
+
+

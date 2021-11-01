@@ -1,0 +1,41 @@
+  
+.knopki-otstup {
+    margin-top: 112px;
+    margin-bottom: 34px;
+}
+
+.btn-portfolio {
+// display: flex; 
+// justify-content: center;
+margin-bottom: 15px;
+margin-right: 8px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.knopki{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--four-title-color);
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+     margin-right: 8px;
+     padding: 6px 22px;
+}
+   .knopki-portfolio:hover,
+   .knopki-portfolio:focus {
+    color: var(--praimary-title-color);
+    background-color: var(--akcent-title-color);
+   }

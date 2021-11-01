@@ -1,0 +1,71 @@
+              
+.btn-clouse {
+    position: absolute;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    background-color:transparent;
+    border: 1px solid #757575;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    &:focus,
+    &:hover + .clouse {
+      border-color: var(--praimary-title-color);
+      fill: var(--akcent-title-color);
+    } 
+  
+}
+.clouse {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+     
+  }
+
+  .modal-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.button-flexs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 200px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  border: none;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--praimary-title-color);
+  background-color:var(--akcent-title-color);
+  border-radius: 4px;
+  transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
+  -webkit-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
+  -moz-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
+  -ms-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
+  -o-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
+      &:hover,
+      &:focus {
+      color: var(--praimary-title-color);
+      background-color:#188CE8;
+  }
+ }
+ 

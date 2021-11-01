@@ -1,0 +1,142 @@
+    .carrent:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: var(--akcent-title-color);
+        display: block;
+        bottom: -34px;
+        }
+        .contakt-item {
+            margin-right: 10px;
+            }           
+    
+        .contakt-link {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+            .contakt-icon {
+            width: 16px;
+            height: 12px;
+            fill: var(--thri-title-color);
+             &:hover, 
+             &:focus {
+             fill: var(--akcent-title-color);
+                     }
+        }
+         
+            .contakt-icon-tel {
+                width: 10px;
+                height: 16px;
+                fill: var(--thri-title-color);
+                 &:hover, 
+                 &:focus {
+                fill: var(--akcent-title-color);
+                                         }
+            }
+    
+    .header-contakt {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        align-items: center;
+
+    }
+        .header-border {
+            border-bottom: 1px solid #ECECEC;
+        }
+            .header-navigation {
+            display: flex;
+            align-items: center;
+        
+        }
+    .header-list {
+        display: flex;
+        align-items: center;
+        
+    }
+    .contakt-list {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .list__items:not(:last-child) {
+        margin-right: 50px;
+        align-items: center;
+        padding-bottom: 32px;
+        padding-top: 32px;
+       
+          
+    }
+    .header-logo-1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--akcent-title-color)
+    }
+     .heder-logo-2{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--secondery-title-color)
+    }
+    // .heder-studia {
+    //     display: block;
+    //        font-weight: 500;
+    //        font-size: 14px;
+    //        line-height: 1.14;
+    //        letter-spacing: 0.02em;
+    //        color:var(--four-title-color);
+    //        position: relative;
+    //        transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+    // }
+    .list__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--four-title-color);
+    position: relative;
+    transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contakt__list-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--thri-title-color);
+    transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .link:hover,
+    .link:focus {
+    color: var(--akcent-title-color);
+    }
+    
+    .contakt__list-email {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color:var(--thri-title-color);
+        transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1);
+        -moz-transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1);
+        -ms-transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1);
+        -o-transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover {
+            color:var(--akcent-title-color);
+            }
+            }

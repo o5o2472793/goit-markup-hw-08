@@ -1,0 +1,71 @@
+:root {
+    --praimary-title-color: #FFFFFF;
+    --one-title-color: #2F303A;
+    --akcent-title-color: #2196F3;
+    --secondery-title-color: #000000;
+    --thri-title-color: #757575;
+    --four-title-color: #212121;
+    --five-title-color: #ECECEC;
+    --background-color: #FFFFFF;   
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    background: var(--background-color);
+}
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0px;
+        overflow: hidden;
+        border: 0 px;
+        clip: rect(0 0 0 0);
+
+    }
+
+ .link {
+    text-decoration: none;
+}
+ .list {
+    list-style: none;
+}
+
+
+
+.conteiner {
+ width: 100%;
+ margin:0 auto;
+ padding-left: 15px;
+ padding-right: 15px;  
+ @media screen and (min-width: 480px) {
+       width: 450px;
+ }
+
+ @media screen and (min-width: 768px) {
+       width: 768px;
+ }
+ @media screen and (min-width: 1200px) {
+         width: 1200px;
+}
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
