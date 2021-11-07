@@ -66,6 +66,23 @@
       &:focus {
       color: var(--praimary-title-color);
       background-color:#188CE8;
+
   }
+
+
  }
  
+
+ .footer-batton {
+  @media screen and (max-width: 1999px) {
+        margin-right: auto;
+        margin-left: auto;
+  
+}
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px 29px;
+  
+ 
+ }

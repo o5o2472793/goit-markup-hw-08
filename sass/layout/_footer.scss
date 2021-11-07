@@ -1,7 +1,10 @@
 .logotip-1{
-    text-align: start;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
     
-       }
+       
        .footer-logo-1 {
         font-family: Raleway;
         font-style: normal;
@@ -22,7 +25,7 @@
         color: var(--praimary-title-color);
        }
       .adres {
-        display: flex;
+        display: inline-block;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -34,7 +37,8 @@
        }
     
       .adres-2 {
-          display: flex;
+
+        display: inline-block;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -42,20 +46,54 @@
         line-height: 24px;
         text-decoration: none;
         color: var(--praimary-title-color);
+        margin-top: 9px;
+       
+     
+        
+          
+        
           }
-    
-        .adres-1{
+               
+          .foter-adress {
+            @media screen and (min-width: 768px){
+                width: 231px;
+                margin-right: 70px;
+                }
+              
+          @media screen and (max-width: 767px) {
+                margin-left: auto;
+                margin-right: auto;
+      }
+         @media screen and (max-width: 1199px) {
+                margin-bottom: 60px;
+                text-align: center;
+      }
+        }
+
+
+        .adres-1 {
         padding-top: 60px;
         padding-bottom: 60px;    
        
         }
     
         .name-1 {
-        display: flex; 
-        align-items: baseline;
+           
+             @media screen and (min-width: 1200px){
+                display: flex; 
+                justify-content: center;
+                align-items: baseline;
+         }
           
         }
     
+        .footer-contact {
+         @media screen and (min-width: 768px){
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+         }
+        }
        
             .futer-text {
                 display: flex;
@@ -68,16 +106,21 @@
                 text-transform: uppercase;
                 color: var(--praimary-title-color);
                 margin-bottom: 20px;
-                margin-left: 70px;
                 justify-content: center;
                 align-items: center;
                             
             }
         
             .futer-lict {
-                display: flex;
-                            justify-content: center;
+             display: flex;
+             justify-content: center;
+
+             
+             @media screen and (max-width: 767px){
+                 margin-bottom: 60px;
+             }
                }
+
             .futer-item {
                 width: 44px;
                 height: 44px;
@@ -96,7 +139,7 @@
                 background-color: rgba(255, 255, 255, 0.1);;
                 align-items: center;
                 justify-content: center;
-                margin-left: 70px;
+         
                     &:hover, 
                     &:focus {
                          background-color: #2196F3;
@@ -115,11 +158,17 @@
             }
         
             .input {
-            margin-left: 93px;
-            position: relative;
-           
+
+            @media screen and (min-width: 1200px){
+                margin-left: auto;
+               
+       
+                }
             }
-            .input-text {
+
+            .input-text {        
+                        
+            display: block;
             font-family: Roboto;
             font-style: normal;
             font-weight: bold;
@@ -129,20 +178,38 @@
             text-transform: uppercase;
             color: var(--praimary-title-color);
             margin-bottom: 20px;
+
+                
+            @media screen and (max-width: 1199px){
+                text-align: center;
+            }
                 }
     
          
         
          .online-input {
-        width: 358px;
+            @media screen and (min-width: 768px) {
+                width: 450px;
+               margin-left: auto;
+               margin-right: auto;
+            }
+
+
+        @media screen and (min-width: 1200px) {
+               width: 358px;
+               margin-right: 12px;
+                         }
+        display: block;
+        width: 100%;
         height: 50px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         box-sizing: border-box;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         background-color: transparent;
-        padding: 16px;
+        padding: 15px 16px;
         margin-right: 15px;
+        margin-bottom: 10px;
         justify-content: center;
         align-items: center;
         color: var(--akcent-title-color);
@@ -157,13 +224,20 @@
                 align-items: center;
                 letter-spacing: 0.03em;
                 color: rgba(255, 255, 255, 0.6);
-                           }
+                    }
+             }
+
+            .online-form {
+                @media screen and (min-width: 1200px){
+                display: flex;
             }
-        
+
+            }
+
+
+
            .futer-send {
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            right: 10px;
-            top: 60%;
+            // width: 24px;
+            // height: 24px;
+            margin-left: 10px;
         }

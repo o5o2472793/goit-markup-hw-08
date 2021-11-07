@@ -23,12 +23,13 @@
     display: flex;
     position: relative;
  
-    @media screen and (max-width: 767px){
+    }
+
+  .works {
+    @media screen and (max-width: 1199px){
         display: none;
     }
-    }
-
-
+  }
      
     
 .galeri-1:not(:last-child){
