@@ -1,11 +1,5 @@
 .hero-fon {
-  @media not all, screen and 
-  (min-width: 481px) and (min-resolution: 192dpi), 
-  screen and (min-width: 481px) and (min-resolution: 2dppx){
-    background-image: url('/images/Header-420.jpg');
-  }
-  
-    border-color: var(--one-title-color); 
+     border-color: var(--one-title-color); 
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
@@ -13,14 +7,16 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+}
 
-    @media screen and (min-width: 768px){
-      background-image: url('/images/Header-780.jpg')
-
-    }
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero-fon  {
+        background-image: url('/images/Header-420.jpg');
       }
-
-
+    }
 
 
 
