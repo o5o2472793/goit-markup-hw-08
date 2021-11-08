@@ -36,16 +36,16 @@
 }
 
 .button-flexs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: 450px;
-  margin-right: 450px;
-  margin-bottom: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: auto;
+      
 }
 
 .button {
+
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -58,10 +58,6 @@
   background-color:var(--akcent-title-color);
   border-radius: 4px;
   transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
-  -webkit-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
-  -moz-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
-  -ms-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
-  -o-transition: color 250ms linear,   background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1) ;
       &:hover,
       &:focus {
       color: var(--praimary-title-color);

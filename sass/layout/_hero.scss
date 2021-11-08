@@ -1,4 +1,10 @@
 .hero-fon {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+  
      border-color: var(--one-title-color); 
         background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -7,7 +13,20 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+
+ 
 }
+
+
+      @media (min-device-pixel-ratio: 1),
+      (-webkit-min-device-pixel-ratio: 1),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero-fon  {
+        background-image: url('/images/Header-420.jpg');
+      }
+
+      }
 
       @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -20,22 +39,15 @@
     }
 
 
-
-
-
-
-
  
-.hero {
-    display: flex;
-    justify-content: center;
+// .hero {
+//     display: flex;
+//     justify-content: center;
    
-}
+// }
 
 .rishenie {
 font-weight: 900;
-font-size: 44px;
-line-height: 1.5;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -43,9 +55,12 @@ color: var(--praimary-title-color);
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-margin-top: 200px;
+margin-bottom: 30px;
 
-  
+
+
+
+ 
   @media screen and (min-width: 480px){
       width: 360px;
       font-size: 22px;
@@ -53,12 +68,11 @@ margin-top: 200px;
 }
 
     @media screen and (min-width: 769px){
-      width: 750px;
-      font-size: 44px;
+      width: 696px;
+      font-size: 42px;
       line-height: 1.36;
 }
  
-  
 }
 
 .background-color {
