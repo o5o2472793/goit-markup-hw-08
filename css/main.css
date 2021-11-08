@@ -428,6 +428,10 @@ body {
 }
 
 .hero-fon {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   border-color: var(--one-title-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon.jpg);
   background-repeat: no-repeat;
@@ -435,42 +439,20 @@ body {
   background-size: cover;
 }
 
-@media (min-widht: 420px), (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 1), (-webkit-min-device-pixel-ratio: 1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-fon {
-    border-color: var(--one-title-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Header-420.jpg);
+    background-image: url("/images/Header-420.jpg");
   }
 }
 
-@media (min-widht: 768px), (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-fon {
-    border-color: var(--one-title-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Header-780.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("/images/Header-780.jpg");
   }
-}
-
-@media (min-widht: 1200px), (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero-fon {
-    border-color: var(--one-title-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/fon.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
 }
 
 .rishenie {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -478,7 +460,7 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
@@ -490,8 +472,8 @@ body {
 
 @media screen and (min-width: 769px) {
   .rishenie {
-    width: 750px;
-    font-size: 44px;
+    width: 696px;
+    font-size: 42px;
     line-height: 1.36;
   }
 }
@@ -1022,7 +1004,6 @@ body {
 }
 
 .logotip-1 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -1292,15 +1273,13 @@ body {
 
 .button-flexs {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  margin-left: 450px;
-  margin-right: 450px;
-  margin-bottom: 200px;
+  align-items: center;
+  margin: auto;
 }
 
 .button {
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -1313,10 +1292,6 @@ body {
   background-color: var(--akcent-title-color);
   border-radius: 4px;
   transition: color 250ms linear, background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: color 250ms linear, background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
-  -moz-transition: color 250ms linear, background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-transition: color 250ms linear, background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: color 250ms linear, background-color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover, .button:focus {
